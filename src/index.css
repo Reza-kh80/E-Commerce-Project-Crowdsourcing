@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Vazir';
+  src: url('../font/Vazir.eot');
+  /* IE9 Compat Modes */
+    src: url('../font/Vazir.eot') format('embedded-opentype'),
+      /* IE6-IE8 */
+    url('../font/Vazir.woff2') format('woff2'),
+    /* Modern Browsers */
+    url('../font/Vazir.woff') format('woff'),
+    /* Open Type Font */
+    url('../font/Vazir.ttf') format('truetype');
+  /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  font-display: auto;
+}
+
+html,
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Vazir';
+}
+
+/* html,
+body {
+  font-family: 'Yekan';
+  overflow-x: hidden;
+  text-align: center;
+  direction: rtl;
+} */

@@ -1,0 +1,8 @@
+.design {
+    color: white;
+    font-weight: bold;
+}
+
+.design:hover {
+    background-color: blue;
+}
